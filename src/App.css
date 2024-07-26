@@ -1,0 +1,16 @@
+:root{
+  --mobile: (max-width: 768px);
+  --tablet: (max-width: 1024px);
+  --desktop: (min-width: 1025px);
+}
+
+#root {
+  width: 100%;
+  margin: 0 auto;
+  background: black;
+  line-height: 2;
+}
+
+html{
+  font-size: 62.5%;
+}

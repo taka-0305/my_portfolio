@@ -1,0 +1,59 @@
+[
+  {
+    "id":1,
+    "title": "あやねっと",
+    "date": "2020年",
+    "url":"https://suzuki-ayanet.com/",
+    "description": "俳優である鈴木絢音さんの活動を応援するWebサイト。自分が初めて作ったWebサイトでWordPressを活用して記事投稿機能も搭載。WordPressに頼るだけでなく、独自にページを作成したり、データベースと接続してスケジュール情報などを表示している。ただ自分が初めて作ったWebサイトのため、コードの構造が乱雑でわかりにくい所が問題点。",
+    "image_path": "mockup_ayanet.webp",
+    "lang":["HTML","SCSS","JavaScript","PHP","JQuery","WordPress"],
+    "data":[
+    ]
+  },
+  {
+    "id":2,
+    "title": "Welina",
+    "date": "2022年",
+    "url":"https://nao-welina.com/",
+    "description": "アイドルグループ乃木坂46に所属する弓木奈於さんの活動を応援するWebサイト。二番目に作ったWebサイトで、デザインにもこだわりシンプルですっきりとした雰囲気に。高速化のためにCloudFlareを採用。",
+    "image_path": "mockup_welina.webp",
+    "lang":["HTML","SCSS","JavaScript","PHP","JQuery","WordPress"],
+    "data":[
+      {
+        "title":"BSテレ東「東京パソコンクラブ」飲食店ロケ地まとめ",
+        "date": "2022年",
+        "url":"https://nao-welina.com/tpc-restaurant/",
+        "description":"BSテレ東で放送されている番組『東京パソコンクラブ』のロケ地をまとめたページ。番組ハッシュタグで店舗を巡りたいという声を多く見つけたことがきっかけで制作。高速で要素を切り替えられるようにVue.jsを採用。最初は放送回切り替えのみだったが、店舗所在地の切り替えも追加し、ユーザが使いやすいように改良中。",
+        "image_path":"mockup_welina.webp",
+        "lang":["HTML","SCSS","JavaScript","Vue.js","JQuery"]
+      },
+      {
+        "title":"弓木奈於さん出演歴まとめ",
+        "date": "2022年",
+        "url":"https://nao-welina.com/work-list/",
+        "description":"弓木奈於さんが出演された番組や雑誌などをまとめたページ。カテゴリーやジャンル順に並べ替えが可能で、タグをクリックすると同じタグが適用されている要素を表示する。データはPHPにリクエストを送信し、対応するデータをJSON形式で返答することで、ソートや絞込みにも対応しながら表示している。少し検索能力不足のため、今後は年月日やワード検索も実装していきたい。",
+        "image_path":"mockup_welina.webp",
+        "lang":["HTML","SCSS","JavaScript","PHP","JQuery","MySQL"]
+      }
+    ]
+  },
+  {
+    "id":3,
+    "title": "3523",
+    "date": "2024年",
+    "url":"https://3523times.com/",
+    "description": "鈴木絢音さんと弓木奈於さんに関するニュース記事をまとめるニュースメディア。何かに関連した記事を探すときにGoogle検索等では見つかりにくかったため、自分で制作。データベースを活用し、PHPで新着表示や注目記事、カテゴリー別など条件ごとに表示し、見やすさを重視したサイトに。検索ページではカテゴリーやタグでの絞込みが行えるところにこだわった。",
+    "image_path": "mockup_3523.webp",
+    "lang":["HTML","SCSS","JavaScript","PHP","JQuery","WordPress"],
+    "data":[
+      {
+        "title":"検索結果ページ",
+        "date": "2024年",
+        "url":"https://3523times.com/post",
+        "description":"カテゴリー、メンバー、タグなどで記事の絞り込みが出来るページ。現在選択しているタグ等はページ上部に表示され、それを押すと絞り込みが解除さる機能も搭載。ワードによる絞り込み検索が必要と考え、現在検討中。",
+        "image_path":"mockup_3523.webp",
+        "lang":["HTML","SCSS","JavaScript","PHP","JQuery","WordPress"]
+      }
+    ]
+  }
+]
